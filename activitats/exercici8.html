@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercici 8</title>
+</head>
+<body>
+
+<h1>Exercici 8</h1>
+<p>Un formulari amb un camp de càrrega d'arxius per permetre als usuaris pujar documents o imatges.</p>
+
+<form method="post" enctype="multipart/form-data">
+    <label for="arxiu">Selecciona un arxiu: </label>
+    <input type="file" id="archivo" name="arxiu" accept=".pdf, .doc, .jpg, .png" required>
+    <br><br>
+    <input type="submit" value="Pujar arxiu">
+</form>
+
+</body>
+</html>
